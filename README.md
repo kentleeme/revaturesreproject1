@@ -1,7 +1,7 @@
-# Project0+1
-## Learning/Teaching Management Web Application
-
-- Features
+# Revature-SRE-Project1
+## Course Management Web Application
+- Migrated a RESTful Javalin web application to Spring Boot deployed on Kubernetes. Application logs are aggregated with FluentD agents exporting to Loki and displayed in a Grafana Dashboard.
+- Application Features
     - Create user account by type
         - Student
         - Instructor
@@ -23,3 +23,4 @@
         - Drop a Course
         - View all Courses they enroll in
         - Calculate GPA (Non-CRUD)
+- Technologies: Kubernetes, Maven, Git, Log4J, Java, PostgreSQL, Spring Boot, Spring Data, AWS RDS, Grafana, Loki, FluentD
